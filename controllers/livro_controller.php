@@ -11,6 +11,6 @@
 
     $livro = array_pop($filtrado);
 
-    view('livro');
+    view('livro', compact('livro'));
 
 ?>

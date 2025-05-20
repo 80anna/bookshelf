@@ -15,11 +15,11 @@
             <div class="font-bold text-xl tracking-wide">Bookshelf</div>
             
             <ul class="flex space-x-4">
-                <li><a href="index" class="text-indigo-400 font-bold">Explorar</a></li>
-                <li><a href="/meus-livros.php" class="hover:underline">Meus Livros</a></li>
+                <li><a href="/" class="text-indigo-400 font-bold">Explorar</a></li>
+                <li><a href="/meus-livros" class="hover:underline">Meus Livros</a></li>
             </ul>
             <ul>
-                <li><a href="/login.php" class="hover:underline">Login</a></li>
+                <li><a href="login" class="hover:underline">Login</a></li>
             </ul>
         </nav>
 

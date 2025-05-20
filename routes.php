@@ -8,6 +8,7 @@
         abort(404);
     }
 
+    
     require "controllers/{$controller}_controller.php";
  
 ?>
