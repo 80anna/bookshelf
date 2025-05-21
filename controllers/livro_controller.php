@@ -1,15 +1,7 @@
 <?php 
-
-    // Model
-    require 'dados.php';
-
-
-    $id = $_REQUEST['id'];
-
     
-    $filtrado = array_filter($livros, fn($l) => $l['id'] == $id);
-
-    $livro = array_pop($filtrado);
+    $id = $_REQUEST['id'];
+    $livro = (new DB)->livro($id);
 
     view('livro', compact('livro'));
 

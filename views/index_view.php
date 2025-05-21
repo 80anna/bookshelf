@@ -14,13 +14,13 @@
             <div class="flex">
                 <div class="w-1/3">img</div>
                 <div class="space-y-1">
-                    <a href="/livro?id=<?=$livro['id']?>" class="hover:underline"><div class="font-semibold"><?=$livro['titulo']?></div></a>
-                    <div class="text-xs italic"><?=$livro['autor']?></div>
+                    <a href="/livro?id=<?=$livro->id?>" class="hover:underline"><div class="font-semibold"><?=$livro->titulo?></div></a>
+                    <div class="text-xs italic"><?=$livro->autor?></div>
                     <div class="text-xs italic">⭐⭐⭐⭐⭐ 4 avaliações</div>
                 </div>
             </div>
             <div class="text-sm mt-2">
-                <?=$livro['descricao']?>
+                <?=$livro->descricao?>
             </div>
         </div>
     <?php endforeach; ?>       
